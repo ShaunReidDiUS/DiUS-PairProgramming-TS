@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../index.test.ts"],
-  "sourcesContent": ["import { myFunc } from \"./index\";\n\nvar thingToSort = `{\n \"1\": \"first\",\n \"2\": \"second\",\n \"3\": \"third\",\n \"11\": \"eleventh\",\n \"07\": \"seventh\",\n \"20\": \"twentyth\",\n \"02\": \"secondsecond\" \n}`;\n\nit(\"should get the correct number of items\", () => {  \n  var sorted = myFunc(thingToSort);\n  console.log(sorted)\n});"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA,mBAAuB;AAEvB,IAAI,cAAc;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAUlB,GAAG,0CAA0C,MAAM;AACjD,MAAI,SAAS,yBAAO;AACpB,UAAQ,IAAI;AAAA;",
-  "names": []
-}
