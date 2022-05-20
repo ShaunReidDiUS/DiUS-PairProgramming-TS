@@ -1,7 +1,8 @@
 compile = ["./.config/build.sh"]
-run = ["node", "--enable-source-maps", ".build/index.js"]
+# run = ["node", "--enable-source-maps", ".build/index.js"]
+run = ["npm", "test"]
 
-hidden = [".build", ".config"]
+hidden = [".build", ".config", ".gitignore", "jest.config.js", "tsconfig.json", "README.md", "package-lock.json"]
 
 entrypoint = "index.ts"
 
